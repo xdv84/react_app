@@ -1,24 +1,12 @@
 .App {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
   "header header header"
   "nav nav nav"
   "footer footer footer";
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
 
-.header {
-  grid-area: header;
-}
-
-.header img {
-  height: 100px;
-}
-
-.nav {
-  grid-area: nav;
-}
-
-.footer{
-  grid-area: footer;
-}
